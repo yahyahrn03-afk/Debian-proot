@@ -25,6 +25,3 @@ sleep 1
 proot-distro login debian --shared-tmp -- /bin/bash -c  'export PULSE_SERVER=127.0.0.1 && export XDG_RUNTIME_DIR=${TMPDIR} && su - yahya -c "env DISPLAY=:0 cinnamon-session"'
 
 exit 0
-n"'
-
-exit 0
